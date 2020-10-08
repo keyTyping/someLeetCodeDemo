@@ -16,6 +16,9 @@ describe("有效的括号:", () => {
   test("{[]}", () => {
     expect(isValid("{[]}")).toBe(true);
   });
+  test("{[a1]}", () => {
+    expect(isValid("{[a1]}")).toBe(true);
+  });
 
 })
 
